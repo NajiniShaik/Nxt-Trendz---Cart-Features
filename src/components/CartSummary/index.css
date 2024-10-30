@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.cart-summary-container {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0px 0px 30px;
+}
+
+.cart-summary-container div {
+  width: 40%;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.check-out-btn {
+  background-color: #0b69ff;
+  color: #ffffff;
+  width: 100%;
+  padding: 10px 0px;
+  border-width: 0px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: 'Roboto';
+}
+
+.cart-summary-card-title {
+  color: #616e7c;
+  font-size: 18px;
+  font-family: 'Roboto';
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.cart-summary-card-total {
+  color: #171f46;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  margin-left: 20px;
+}
+
+@media (min-width: 768px) {
+  .cart-summary-card-total {
+    font-size: 26px;
+  }
+}
+
+.cart-summary-card-count {
+  color: #616e7c;
+  font-size: 14px;
+  font-family: 'Roboto';
+  margin-bottom: 30px;
+}
